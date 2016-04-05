@@ -41,6 +41,12 @@ $("#back-to-board").mousedown( function() {
     $(".question-and-progress").hide();
   });
 
+$("body").on('click', '#back-to-board', function() {
+    console.log("button Pressed");
+    $(".board-wrap").show();
+    $(".question-and-progress").hide();
+  });
+
   
 
 
